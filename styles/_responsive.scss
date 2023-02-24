@@ -1,0 +1,61 @@
+@include mediaQuery {
+    body {
+        position: relative;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .header {
+        position: absolute;
+        top: 3rem;
+        left: 7rem;
+        background-color: transparent;
+
+        &-logo {
+            width: 10rem;
+
+            & > img {
+                width: 100%;
+            }
+        }
+    }
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 0;
+
+        &-img {
+            margin-top: 0;
+            width: 45%;
+            height: 100vh;
+            background: url("../images/hero-desktop.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        &-text {
+            width: 55%;
+            height: 100vh;
+            padding: 3rem 5rem 3rem 12rem;
+            text-align: left;
+        }
+
+        &-header {
+            padding-top: 10rem;
+            font-size: 4rem;
+            letter-spacing: 1rem;
+        }
+
+        &-description {
+            width: 27rem;
+            line-height: 2rem;
+        }
+
+        &-form {
+            width: 26rem;
+
+            &-btn {
+                padding: 0.8rem 2.5rem;
+            }
+        }
+    }
+}

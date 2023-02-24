@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/main.css" />
+
+        <title>Frontend Mentor | Base Apparel coming soon page</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-logo">
+                <img
+                    src="./images/logo.svg"
+                    alt="Base Apparel"
+                    class="header-logo-img"
+                />
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-img"></div>
+                <div class="hero-text">
+                    <div>
+                        <h1 class="hero-header">
+                            <span class="hero-header-light">We're</span
+                            ><span class="hero-header-bold"> coming soon</span>
+                        </h1>
+                        <p class="hero-description">
+                            Hello fellow shoppers! We're currently building our
+                            new fashion store. Add your email below to stay
+                            up-to-date with announcements and our launch deals.
+                        </p>
+                    </div>
+                    <form action="#" class="hero-form" novalidate>
+                        <input
+                            type="email"
+                            class="hero-form-input"
+                            name="Email"
+                            placeholder="Email Address"
+                            aria-label="Email Address"
+                            aria-required="true"
+                            aria-invalid="false"
+                            aria-describedby="email-value-error"
+                        />
+                        <img
+                            src="./images/icon-error.svg"
+                            alt="Invalid email address"
+                            class="error-icon"
+                        />
+                        <button type="submit" class="hero-form-btn">
+                            <img src="./images/icon-arrow.svg" alt="Submit" />
+                        </button>
+                        <p
+                            id="email-value-error"
+                            role="alert"
+                            class="error-message"
+                        >
+                            Please provide a valid email address
+                        </p>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
