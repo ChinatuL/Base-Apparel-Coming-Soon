@@ -3,6 +3,8 @@
         position: relative;
         overflow: hidden;
         height: 100vh;
+        background: linear-gradient(135deg, $gradient-1, $gradient-2),
+            url("../images/bg-pattern-desktop.svg") !important;
     }
 
     .header {

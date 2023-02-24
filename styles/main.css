@@ -127,6 +127,7 @@
     position: relative;
     overflow: hidden;
     height: 100vh;
+    background: linear-gradient(135deg, hsl(0deg, 0%, 100%), hsl(0deg, 100%, 98%)), url("../images/bg-pattern-desktop.svg") !important;
   }
   .header {
     position: absolute;
